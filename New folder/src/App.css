@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+.font{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Rowdies', cursive;
+}
+
+#red{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 100;
+  font-size: small;
+}
+.form-group{
+  height: 80px !important;
+}
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Link {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.Link:hover {
+  transform: scale(1.1);
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.active{
+  color: rgb(238, 255, 0);
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 50px;
+  padding: 100px;
+  padding-right: 50px;
+}
+.avtimg{
+border-radius: 100px;
+
+}
+
+.pphoto{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.indie{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.upload{
+  display: flex;
+  flex-direction: column;
+}

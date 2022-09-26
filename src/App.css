@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+*{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar{
+  display: none;
+  }
+.font{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Rowdies', cursive;
+}
+
+#red{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 100;
+  font-size: small;
+}
+.form-group{
+  height: 80px !important;
+}
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Link {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.Link:hover {
+  transform: scale(1.1);
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.active{
+  color: rgb(238, 255, 0);
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 50px;
+  padding: 100px;
+  padding-right: 50px;
+}
+.avtimg{
+border-radius: 100px;
+
+}
+
+.pphoto{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.indie{
+ 
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.upload{
+  display: flex;
+  flex-direction: column;
+}
+.dp{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.preview{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.shadow{
+  padding: 0;
+  width: 350px;
+  box-shadow: 20px 20px 10px rgb(0, 0, 0);
+  background-color: rgb(248, 255, 253) !important;
+}
+.moveL{
+  display: flex;
+  justify-content: flex-end;
+}
+.moveC{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.move:enabled{
+  /* transform: scale(1.1) */
+  animation-name: btn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes btn {
+  from {transform: scale(1.1) }
+  to {transform: scale(1) }
+}
+.post-image{
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post-caption{
+  padding: 5px;
+  height: 50px;
+  width: 90%;
+  border-radius: 5px;
+  overflow-y: scroll;
+ 
+  background-color: rgb(226, 223, 223);
+}
+
+.indie-uni{
+  padding: 20px;
+  background-color: #1e2024;
+  color: whitesmoke;
+}
+.card-body{
+  width: 100% !important;
+  color: black !important;
+}
+.lcs{
+  width: 90% !important;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.tran{
+  height: 200px;
+ margin: 50px;
+  background-color: transparent;
+}
